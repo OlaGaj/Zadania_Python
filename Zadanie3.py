@@ -1,0 +1,6 @@
+Liczba_gości = int(input('Podaj liczbę gości \n'))
+Liczba_cukierków = int(input('Podaj liczbę cukierków \n'))
+Ilość_cukierków_dla_gości = int(Liczba_cukierków/Liczba_gości)
+print('Każdy gość dostanie cukierków', Ilość_cukierków_dla_gości)
+Reszta_cukierków = int(Liczba_cukierków - (Ilość_cukierków_dla_gości*Liczba_gości))
+print('Dla Ani zostanie %s cukierki' %Reszta_cukierków)
